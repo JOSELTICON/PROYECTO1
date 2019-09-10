@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+.offset:before {
+    height: 3.8rem;
+    margin-top: -3.8rem;
+    content: "";
+    display: block;
+}
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, .6)!important;
+}
+.navbar-brand img{
+  height: 4rem;
+}
+.navbar-nav li{
+    padding: .1rem;
+}
+.nav-lin{
+    color:white;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+    padding-top: .5rem;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba3;
+}
+.navbar-collapse{
+    margin-top: 40px;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+.navbar-right{
+    margin-top:-40px;
+    position:absolute;
+    right: 0;
+    margin-right: 3vh;
+}
+.carousel-item{
+    height: 100vh;  
+    background-size: cover;
+}
+.carousel-caption{
+    position:absolute;
+    top: 30%;
+    text-transform: uppercase;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+.carousel-caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 0rem;
+}
+.carousel-caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
+.offset{
+    text-align: center;
+}
+.narrow{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.btn-md{
+	border-width: medium;
+	border-radius: 0;
+	padding: .6rem 1.1rem;
+	text-transform: uppercase;
+	margin: 1rem;
+}
+.jumbotron{
+    border-radius: 0;
+    padding: 3rem 0 2rem;
+    margin-bottom: 0;
+}
+h3.heading{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem;
+}
+.porfolio img{
+    max-width: 100%;
+    transition: transform .5s ease;
+}
+.row.no-padding [class*=col-]{
+    padding: 0;
+}
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+.portfolio img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.portfolio{
+    overflow: hidden;
+}
+.card{
+    margin: .3rem;
+    width: 50vh;
+    height: 80vh;
+    position: static;
+}
+.im{
+    background-size:contain;
+    height: 90vh;
+    width: 90vh;
+}
+footer{
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 3rem;
+    margin-top: 1rem;
+}
+footer img{
+    height: 3rem;
+    margin: 1.5rem;
+}
+footer a{
+    color: white;
+}
+footea svg.svg-inline--fa{
+    font-size: 1.6rem;
+    margin: 1.2 rem .5rem 0 0;
+}
+footea svg.svg-inline--fa:hover{
+    color: #1ebba3;
+}
+hr.socket{
+    border-top:  .2rem solid #666b71;
+    width: 100%;
+}
+.nuev {
+    background: rgba(49, 49, 49, .8);
+}
+.mb{
+    background-color: white;
+}
+.mh{
+    color: white;
+}
+.bmodal{
+    text-transform: uppercase;
+    height: 6vh;
+}
+.somos{
+    text-align: justify;
+    font-size: 30px;
+}
+.seccion{
+    background: #1ebba3;
+    padding-top: 5vh;
+    color: white;
+}
+.card-body{
+    text-align:left;
+    width: 50vh;
+    height: 30vh;
+}
+.card-img-top{
+    width:50vh;
+    height:40vh;
+    background-size: cover;
+}
+.btm{
+    align-content: center;
+}
+@media(max-width: 767px){
+    .navbar-right{
+    position: relative;
+}
+    .carousel-item{
+    height:68vh;
+    background-size: 100% 100%;
+        
+}
+    .carousel-caption{
+    position:absolute;
+    top: 20%;
+    text-transform: uppercase;
+    right: 0;
+    left: 0;
+}
+    
+    .carousel-caption h1
+    {
+        font-size: 2.8rem;
+        letter-spacing: .10rem;
+        padding-bottom: 0rem;
+    }
+    .carousel-caption h3
+    {font-size: 1.2rem;
+     padding-bottom: 1.2rem;
+    }
+    .btn-lg{font-size: 1.1rem;
+    }
+    .narrow h1
+    {
+        font-size: 1.5rem;
+    }
+    p.lead{
+        font-size: 1rem;
+    }
+    .navbar-toggler
+    {
+       position:absolute;
+        margin-right: 4vh;
+        right: 0;
+        top:0;
+        margin-top:4vh;
+    }
+    .somos{
+    text-align:left;
+    font-size: 20px;
+}
+    .mis
+    {
+      font-size: 30px;  
+    }
+    .card-body{
+    width: 90vh;
+    height: 20vh;
+}
+    .card-img-top{
+    width: 95vh;
+    height: 50vh; 
+}
+    .btm{
+    margin-top: -2vh;
+    align-content: center;
+}
+    .card{
+    width: 95vh;
+    height: 80vh;
+}
+    .im{
+    background-size:contain;
+    height: 70vh;
+    width: 50vh;
+}
+
+}
+@media (min-width:480px){
+    .card-body{
+    width: 53vh;
+    height: 20vh;
+}
+    .card-img-top{
+    width: 53vh;
+    height: 50vh; 
+}
+    .btm{
+    margin-top: -2vh;
+    align-content: center;
+}
+    .card{
+    width: 53vh;
+    height: 80vh;
+}
+    .im{
+    background-size:contain;
+    height: 65vh;
+    width: 50vh;
+}
+}
